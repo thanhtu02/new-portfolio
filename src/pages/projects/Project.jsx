@@ -35,7 +35,7 @@ function Project({toggle}) {
                             'text-[#2b1d10] leading-8 font-light text-[16px]': !toggle,
                         }
                     )}>Technologies and Tools used : Vite, Axios, RestfulAPI, ReactJs, Javascript, HTML5, TailwindCSS, React Router Dom, React Hook, Heroicons, Tabler-icons, React-icons</p>
-                    <img src="https://imgur.com/8PCSQGg" />
+                    <img src="https://i.pinimg.com/originals/92/bd/85/92bd85aa8a5d2395e035e73a6c0c5190.jpg" alt="ecommerce" />
                 </div>
                 <div className="mt-8">
                     <p
@@ -51,7 +51,7 @@ function Project({toggle}) {
                             'text-[#2b1d10] leading-8 font-light text-[16px]': !toggle,
                         }
                     )}>Technologies and Tools used: Vite, Axios, RestfulAPI, ReactJs, Javascript, HTML5, TailwindCSS, React Router Dom, React Hook, AntD</p>
-                    <img src="https://imgur.com/5ZmR1B7" />
+                    <img src="https://i.pinimg.com/originals/23/a9/ed/23a9edeffe18d01ef1625bcb5a8c214d.jpg" />
                 </div>
                 <div className="mt-8">
                     <p
@@ -67,7 +67,7 @@ function Project({toggle}) {
                             'text-[#2b1d10] leading-8 font-light text-[16px]': !toggle,
                         }
                     )}>Technologies and Tools used: Vite, Axios, RestfulAPI, ReactJs, Javascript, HTML5, TailwindCSS, React Router Dom, React Hook, AntD</p>
-                    <img src="https://imgur.com/94VvmUM" />
+                    <img src="https://i.pinimg.com/originals/cc/da/7a/ccda7acfae17c13ea291df0917c01b85.jpg" />
                 </div>
             </div>
         </div>

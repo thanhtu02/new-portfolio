@@ -64,19 +64,19 @@ function Header({ toggle, toggleBackground }) {
                     <div className="flex justify-center items-center gap-8">
                         <div className="flex justify-center items-center gap-2">
                             <a href="https://web.facebook.com/hee.han.3133/?locale=vi_VN">
-                                <img src="../public/images/facebook.png"
-                                    className="w-5 h-5"
+                                <img src="https://i.pinimg.com/564x/b5/9d/15/b59d15f1d09ebd9882cad4a448688aac.jpg"
+                                    className="w-5 h-5 rounded-[4px]"
                                     alt="Duong-dan-Facebook-khong-chia-se" />
                             </a>
                             <a href="https://instagram.com/xzaiyu?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr">
                                 <img
-                                    src="https://imgur.com/Z0z5rnj"
-                                    className="w-5 h-5"
+                                    src="https://i.pinimg.com/564x/f7/9c/5d/f79c5df041ac67c0ce4fddc4b039037b.jpg"
+                                    className="w-5 h-5 rounded-[4px]"
                                     alt="Duong-dan-Instagram" />
                             </a>
                             <a href="http://linkedin.com/in/thanh-tu-456413275">
-                                <img src="https://imgur.com/M7g1AAg"
-                                    className="w-5 h-5"
+                                <img src="https://i.pinimg.com/564x/29/fe/f9/29fef91506c1750b02a2541b3f73f8d2.jpg"
+                                    className="w-5 h-5 rounded-[4px]"
                                     alt="Duong-dan-Linkedin" />
                             </a>
                         </div>
