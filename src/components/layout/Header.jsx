@@ -70,12 +70,12 @@ function Header({ toggle, toggleBackground }) {
                             </a>
                             <a href="https://instagram.com/xzaiyu?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr">
                                 <img
-                                    src="../public/images/instagram.png"
+                                    src="https://imgur.com/Z0z5rnj"
                                     className="w-5 h-5"
                                     alt="Duong-dan-Instagram" />
                             </a>
                             <a href="http://linkedin.com/in/thanh-tu-456413275">
-                                <img src="../public/images/linkedin.png"
+                                <img src="https://imgur.com/M7g1AAg"
                                     className="w-5 h-5"
                                     alt="Duong-dan-Linkedin" />
                             </a>

@@ -35,7 +35,7 @@ function Project({toggle}) {
                             'text-[#2b1d10] leading-8 font-light text-[16px]': !toggle,
                         }
                     )}>Technologies and Tools used : Vite, Axios, RestfulAPI, ReactJs, Javascript, HTML5, TailwindCSS, React Router Dom, React Hook, Heroicons, Tabler-icons, React-icons</p>
-                    <img src="https://drive.google.com/file/d/1mT0rqr0QKQ0cZeKRx3rUtpknoDGZC3v7/view?usp=sharing" />
+                    <img src="https://imgur.com/8PCSQGg" />
                 </div>
                 <div className="mt-8">
                     <p
@@ -51,7 +51,7 @@ function Project({toggle}) {
                             'text-[#2b1d10] leading-8 font-light text-[16px]': !toggle,
                         }
                     )}>Technologies and Tools used: Vite, Axios, RestfulAPI, ReactJs, Javascript, HTML5, TailwindCSS, React Router Dom, React Hook, AntD</p>
-                    <img src="./public/images/icankid.png" />
+                    <img src="https://imgur.com/5ZmR1B7" />
                 </div>
                 <div className="mt-8">
                     <p
@@ -67,7 +67,7 @@ function Project({toggle}) {
                             'text-[#2b1d10] leading-8 font-light text-[16px]': !toggle,
                         }
                     )}>Technologies and Tools used: Vite, Axios, RestfulAPI, ReactJs, Javascript, HTML5, TailwindCSS, React Router Dom, React Hook, AntD</p>
-                    <img src="./public/images/youpass.png" />
+                    <img src="https://imgur.com/94VvmUM" />
                 </div>
             </div>
         </div>

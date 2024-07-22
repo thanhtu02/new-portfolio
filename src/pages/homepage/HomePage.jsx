@@ -27,7 +27,7 @@ function HomePage({ toggle }) {
                         I found programming was extremely amazing and it satisfied my passion for using computer day by day."</p>
                 </div>
                 <div className="">
-                    <img src="../public/images/hero.png"
+                    <img src="https://imgur.com/8Yg9O7L"
                     className="w-auto h-auto" />
                 </div>
             </div>
