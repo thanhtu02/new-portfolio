@@ -35,7 +35,7 @@ function Project({toggle}) {
                             'text-[#2b1d10] leading-8 font-light text-[16px]': !toggle,
                         }
                     )}>Technologies and Tools used : Vite, Axios, RestfulAPI, ReactJs, Javascript, HTML5, TailwindCSS, React Router Dom, React Hook, Heroicons, Tabler-icons, React-icons</p>
-                    <img src="./public/images/ecommerce.png" />
+                    <img src="https://drive.google.com/drive/u/0/folders/1cmGoRmwWmXHgyhLHNp7X-r9zsDQmci_-" />
                 </div>
                 <div className="mt-8">
                     <p
