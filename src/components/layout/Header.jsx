@@ -33,7 +33,9 @@ function Header({ toggle, toggleBackground }) {
             {isOpen && (
                 <div className="bg-gray-800/50 fixed inset-0 z-50">
                     <div className="relative w-full h-full" onClick={toggleMenu}>
-                        <div className="bg-white absolute w-full max-w-[260px] h-screen">
+                        <div
+                            className="bg-white absolute w-full max-w-[260px] h-screen"
+                        >
                             <div className="w-full flex justify-end">
                                 <button
                                     className="p-2"
@@ -42,11 +44,28 @@ function Header({ toggle, toggleBackground }) {
                                 </button>
                             </div>
                             <div className="flex flex-col justify-center items-center gap-[30px]">
-                                <button><a href="#home" className="text-[17px] focus:text-[19px] focus:font-semibold focus:underline focus:underline-offset-1"> Home </a></button>
-                                <button><a href="#about-me" className="text-[17px] focus:text-[19px] focus:font-semibold focus:underline focus:underline-offset-1"> About me </a></button>
-                                <button><a href="#projects" className="text-[17px] focus:text-[19px] focus:font-semibold focus:underline focus:underline-offset-1"> Projects </a></button>
-                                <button><a href="#contact-us" className="text-[17px] focus:text-[19px] focus:font-semibold focus:underline focus:underline-offset-1"> Contact </a></button>
+                                <button>
+                                    <a href="#home" className="text-[17px] hover:text-[19px] focus:font-semibold transition-transform duration-700 ease-in-out transform hover:scale-105 focus:underline focus:underline-offset-1">
+                                        Home
+                                    </a>
+                                </button>
+                                <button>
+                                    <a href="#about-me" className="text-[17px] hover:text-[19px] focus:font-semibold transition-transform duration-700 ease-in-out transform hover:scale-105 focus:underline focus:underline-offset-1">
+                                        About me
+                                    </a>
+                                </button>
+                                <button>
+                                    <a href="#projects" className="text-[17px] hover:text-[19px] focus:font-semibold transition-transform duration-700 ease-in-out transform hover:scale-105 focus:underline focus:underline-offset-1">
+                                        Projects
+                                    </a>
+                                </button>
+                                <button>
+                                    <a href="#contact-us" className="text-[17px] hover:text-[19px] focus:font-semibold transition-transform duration-700 ease-in-out transform hover:scale-105 focus:underline focus:underline-offset-1">
+                                        Contact
+                                    </a>
+                                </button>
                             </div>
+
                         </div>
                     </div>
                 </div>

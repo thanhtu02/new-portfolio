@@ -5,7 +5,7 @@ import Project from './projects/Project';
 import AboutMe from './aboutme/AboutMe';
 
 
-function Home({toggle}) {
+function Home({ toggle }) {
 
     useEffect(() => {
         const handleScroll = () => {
@@ -27,8 +27,12 @@ function Home({toggle}) {
         };
     }, []);
 
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     return (
-        <div className="container w-full mx-auto px-4">            
+        <div className="container w-full mx-auto px-4">
             <section className="home" id="home">
                 <HomePage toggle={toggle} />
             </section>
@@ -39,8 +43,16 @@ function Home({toggle}) {
                 <Project toggle={toggle} />
             </section>
             <section className="contact-us" id="contact-us">
-                <Contact toggle={toggle}/>
+                <Contact toggle={toggle} />
             </section>
+            <div className="fixed bottom-4 right-4">
+                <button
+                    onClick={scrollToTop}
+                    className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600 transition duration-300"
+                >
+                    ↑ Top
+                </button>
+            </div>
         </div>
     );
 }
